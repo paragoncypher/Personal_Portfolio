@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styles.css">
+
+<link rel="stylesheet" href="https://use.fontawesome.com/releases/v6.3.0/css/all.css">
+
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Road+Rage&family=Special+Elite&display=swap" rel="stylesheet">
+    <title>Personal Portfolio</title>
+  </head>
+  <body>
+<!-- Start Navigation -->
+    <nav id="navbar" class="nav">
+      <ul class="nav-list">
+        <li><a href="#welcome-section">About</a></li>
+        <li><a href="#projects">Portfolio</a></li>
+        <li><a href="#contact">Contact</a></li>
+    </nav>
+<!-- End Navigation -->
+    <main>
+<!-- Start Welcome -->
+      <section id="welcome-section" class="welcome-section">
+        <h1>I Am paragoncypher</h1>
+        <img src="https://paragoncypher.github.io/images/mgirl.jpg" id="profile-pic" class="profile-img">
+        <p>Web Developer</p>
+      </section>
+<!-- End Welcome -->
+<!-- Start Projects -->
+      <section id="projects" class="projects">
+        <div class="projects-header">
+      <h2>My Portfolio<h2>
+        </div>
+        <div class="projects-desc">
+      <p>An assortment of personal and certification projects.</p>
+      </div>
+      <div class="projects-gallery-grid">
+        <a href="https://paragoncypher.github.io/Product_Landing_Page/" target="_blank" class="project project-tile">
+          <img class="project-img" src="https://paragoncypher.github.io/images/ProductLandingPageThumb.PNG" alt="Product Landing Page"/>
+          <p class="project-title">Product Landing Page</p>
+          </a>
+        <a href="https://paragoncypher.github.io/TechDocPage/" target="_blank" class="project project-tile">
+          <img class="project-img" src="https://paragoncypher.github.io/images/TechDocThumb.PNG" alt="Technical Documentation"/>
+          <p class="project-title">Technical Documentation</p>
+          </a>
+        <a href="https://paragoncypher.github.io/SurveyForm/" target="_blank" class="project project-tile">
+          <img class="project-img" src="https://paragoncypher.github.io/images/SurveyFormThumb.PNG" alt="Survey Form Project"/>
+          <p class="project-title">Survey Form</p>
+          </a>
+        <a href="https://paragoncypher.github.io/TributePage/" target="_blank" class="project project-tile">
+          <img class="project-img" src="https://paragoncypher.github.io/images/TributePageThumb.PNG" alt="Tribute Page Project"/>
+          <p class="project-title">Tribute Page</p>
+          </a>
+      </div>
+      </section>
+<!-- End Projects -->
+      <div class="spacer-1"></div>
+<!-- Start Contact -->
+      <section id="contact" class="contact">
+        <div class="contact-header">
+        <h2>Contact</h2>
+        <p>If you are interested in working together or you have questions about my services I can be contacted via the form below.</p>
+        </div>
+        <div class="contact-links">
+<!-- FCC Profile -->
+        <a href="https://www.freecodecamp.org/paragoncypher" target="_blank" class="btn contact-details" id="profile-link"><i class="fa-brands fa-free-code-camp"></i></a>
+<!-- GitHub Profile -->
+        <a href="https://github.com/paragoncypher" target="_blank" class="btn contact-details" id="profile-link"><i class="fa-brands fa-github"></i></a>
+        </div>
+<!-- Start Email Form -->
+   <div class="contact-form">     <form action="mailto:paragoncypher@proton.me" method="post" enctype="text/plain" id="email-form">
+        <label for="name" id="name-label">Your Name: <input id="name" type="text" required/>
+      </label>
+      <label for="email" id="email-label">Your Email: <input id="email" type="email" required/>
+      </label>
+      <label for="textarea">Leave A Message: <textarea id="textarea" rows="2" cols="10"></textarea>
+        </label>
+        <input id="submit" type="submit" value="Submit"/>
+        </form>
+<!-- End Email Form -->
+    </div>
+    <div class="spacer-2"></div>
+      </section>
+<!-- End Contact -->
+    </main>
+  </body>
+  <footer>
+    <p>Personal Portfolio &copy; paragoncypher 2023. All Rights Reserved.</p>
+    </footer>
+</html>
